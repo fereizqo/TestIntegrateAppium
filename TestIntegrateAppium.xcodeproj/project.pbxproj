@@ -13,9 +13,12 @@
 		49785CA7270D4E810012380D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49785CA5270D4E810012380D /* Main.storyboard */; };
 		49785CA9270D4E830012380D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49785CA8270D4E830012380D /* Assets.xcassets */; };
 		49785CAC270D4E830012380D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49785CAA270D4E830012380D /* LaunchScreen.storyboard */; };
+		D0B663ECB8396A4C85629AC9 /* Pods_TestIntegrateAppium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C451031F5EDB99A441B56E /* Pods_TestIntegrateAppium.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2949221E1113503FBEDD3B /* Pods-TestIntegrateAppium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIntegrateAppium.debug.xcconfig"; path = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium.debug.xcconfig"; sourceTree = "<group>"; };
+		38C451031F5EDB99A441B56E /* Pods_TestIntegrateAppium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIntegrateAppium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49785C9C270D4E810012380D /* TestIntegrateAppium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIntegrateAppium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49785C9F270D4E810012380D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49785CA1270D4E810012380D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		49785CA8270D4E830012380D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49785CAB270D4E830012380D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49785CAD270D4E830012380D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE0A98F1A3C604119F3CC52 /* Pods-TestIntegrateAppium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIntegrateAppium.release.xcconfig"; path = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B663ECB8396A4C85629AC9 /* Pods_TestIntegrateAppium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16529AE9D58C92C8AE3E0379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A2949221E1113503FBEDD3B /* Pods-TestIntegrateAppium.debug.xcconfig */,
+				4EE0A98F1A3C604119F3CC52 /* Pods-TestIntegrateAppium.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		49785C93270D4E800012380D = {
 			isa = PBXGroup;
 			children = (
 				49785C9E270D4E810012380D /* TestIntegrateAppium */,
 				49785C9D270D4E810012380D /* Products */,
+				16529AE9D58C92C8AE3E0379 /* Pods */,
+				866DE637F825EF462B6B6040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = TestIntegrateAppium;
 			sourceTree = "<group>";
 		};
+		866DE637F825EF462B6B6040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38C451031F5EDB99A441B56E /* Pods_TestIntegrateAppium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49785CB0270D4E830012380D /* Build configuration list for PBXNativeTarget "TestIntegrateAppium" */;
 			buildPhases = (
+				14289F32B502A209EFCF2BBF /* [CP] Check Pods Manifest.lock */,
 				49785C98270D4E800012380D /* Sources */,
 				49785C99270D4E800012380D /* Frameworks */,
 				49785C9A270D4E800012380D /* Resources */,
+				9C216762AEBAE439F0B4C9CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14289F32B502A209EFCF2BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestIntegrateAppium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C216762AEBAE439F0B4C9CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49785C98270D4E800012380D /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		49785CB1270D4E830012380D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2949221E1113503FBEDD3B /* Pods-TestIntegrateAppium.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +383,7 @@
 		};
 		49785CB2270D4E830012380D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE0A98F1A3C604119F3CC52 /* Pods-TestIntegrateAppium.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

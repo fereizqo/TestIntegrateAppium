@@ -1,0 +1,6 @@
+framework module Pods_TestIntegrateAppium {
+  umbrella header "Pods-TestIntegrateAppium-umbrella.h"
+
+  export *
+  module * { export * }
+}
