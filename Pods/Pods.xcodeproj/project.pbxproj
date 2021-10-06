@@ -6,93 +6,52 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = GoogleMaps;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		A09EBDED8AEB33BC650B0B09378DB3ED /* Pods-TestIntegrateAppium-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93396209D37D4CE170476BE24BB4B449 /* Pods-TestIntegrateAppium-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7B1AE2A3400D0A38BFB1D055F122A66 /* Pods-TestIntegrateAppium-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4120E5C9000E52FF59714220A44FA1F /* Pods-TestIntegrateAppium-dummy.m */; };
-		FD997BEA6B6E2209825F799B77624FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		077F6A9A978C4D8E693535CCCECC71B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4A7F7368B81D3FDDF2F516B7A00EDA21 /* Pods-TestIntegrateAppium-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F558F5AE9F7206BEFA6B1A65633E332A /* Pods-TestIntegrateAppium-dummy.m */; };
+		A9C35755C5545838C54184C043DB47B4 /* Pods-TestIntegrateAppium-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A7CC520BD1D15B2B366E1E7059048B /* Pods-TestIntegrateAppium-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CD71F9F83B87010A61B45E6E034E3630 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		2C697BB86534424A8A4731445259732C /* Pods-TestIntegrateAppium-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestIntegrateAppium-Info.plist"; sourceTree = "<group>"; };
+		008F51A0641FFEC3760AF0D1F05AAF68 /* Pods-TestIntegrateAppium-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestIntegrateAppium-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3217396C5423791CC580C76716CB61FF /* Pods-TestIntegrateAppium */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestIntegrateAppium"; path = Pods_TestIntegrateAppium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48179B0BF3035D9F626610F7BCEE3195 /* Pods-TestIntegrateAppium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestIntegrateAppium.debug.xcconfig"; sourceTree = "<group>"; };
-		4E0D7A6128D0DAE28E46B6F3E83F8F94 /* Pods-TestIntegrateAppium-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestIntegrateAppium-resources.sh"; sourceTree = "<group>"; };
-		550351DDC446E7C998520E9F6940F144 /* Pods-TestIntegrateAppium.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestIntegrateAppium.modulemap"; sourceTree = "<group>"; };
-		62ABF3193604120FF6421FC59738502D /* Pods-TestIntegrateAppium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestIntegrateAppium.release.xcconfig"; sourceTree = "<group>"; };
+		4690200DA0FCDD56E5288011DDB9D260 /* Pods-TestIntegrateAppium-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestIntegrateAppium-Info.plist"; sourceTree = "<group>"; };
+		4716BAD334C5164344144BE9F5BDE987 /* Pods-TestIntegrateAppium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestIntegrateAppium.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D83F758DCD9404F440EF50AC3A00728 /* Pods-TestIntegrateAppium-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestIntegrateAppium-acknowledgements.plist"; sourceTree = "<group>"; };
-		93396209D37D4CE170476BE24BB4B449 /* Pods-TestIntegrateAppium-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestIntegrateAppium-umbrella.h"; sourceTree = "<group>"; };
+		93C5CB3E5506C860F894D42847578723 /* Pods-TestIntegrateAppium-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestIntegrateAppium-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C6842E11EE2BD61BA2C14B68F3350CE /* Pods-TestIntegrateAppium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestIntegrateAppium.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
-		C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
-		C4120E5C9000E52FF59714220A44FA1F /* Pods-TestIntegrateAppium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestIntegrateAppium-dummy.m"; sourceTree = "<group>"; };
-		CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		DE7213DEB6A8935E272F1B61CBCF6465 /* Pods-TestIntegrateAppium-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestIntegrateAppium-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		A6A7CC520BD1D15B2B366E1E7059048B /* Pods-TestIntegrateAppium-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestIntegrateAppium-umbrella.h"; sourceTree = "<group>"; };
+		A89380ECDA8AF6A999AD7822BF501032 /* Pods-TestIntegrateAppium.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestIntegrateAppium.modulemap"; sourceTree = "<group>"; };
+		F558F5AE9F7206BEFA6B1A65633E332A /* Pods-TestIntegrateAppium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestIntegrateAppium-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08604031F0CBC08C812BB7748D12E32C /* Frameworks */ = {
+		D86EE1FEEBBBB30260E6E0EB43E2EFC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD997BEA6B6E2209825F799B77624FFE /* Foundation.framework in Frameworks */,
+				077F6A9A978C4D8E693535CCCECC71B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */ = {
+		382669CAFBB5FB11DA522DFEF19F8A3F /* Pods-TestIntegrateAppium */ = {
 			isa = PBXGroup;
 			children = (
-				CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */,
+				A89380ECDA8AF6A999AD7822BF501032 /* Pods-TestIntegrateAppium.modulemap */,
+				008F51A0641FFEC3760AF0D1F05AAF68 /* Pods-TestIntegrateAppium-acknowledgements.markdown */,
+				93C5CB3E5506C860F894D42847578723 /* Pods-TestIntegrateAppium-acknowledgements.plist */,
+				F558F5AE9F7206BEFA6B1A65633E332A /* Pods-TestIntegrateAppium-dummy.m */,
+				4690200DA0FCDD56E5288011DDB9D260 /* Pods-TestIntegrateAppium-Info.plist */,
+				A6A7CC520BD1D15B2B366E1E7059048B /* Pods-TestIntegrateAppium-umbrella.h */,
+				4716BAD334C5164344144BE9F5BDE987 /* Pods-TestIntegrateAppium.debug.xcconfig */,
+				9C6842E11EE2BD61BA2C14B68F3350CE /* Pods-TestIntegrateAppium.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				5FCC553E82707BA26B1F6EDC00161B0D /* Base */,
-				387015716759109261086A8C0CA736F5 /* Maps */,
-				9601491F11C5653D98D1EB5DF2155DFE /* Support Files */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		387015716759109261086A8C0CA736F5 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */,
-				E48211C21EA696EBC32B31525F5FFA67 /* Resources */,
-			);
-			name = Maps;
+			name = "Pods-TestIntegrateAppium";
+			path = "Target Support Files/Pods-TestIntegrateAppium";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -103,39 +62,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5FCC553E82707BA26B1F6EDC00161B0D /* Base */ = {
+		A22A396C185F444746521C70BF18076F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */,
+				382669CAFBB5FB11DA522DFEF19F8A3F /* Pods-TestIntegrateAppium */,
 			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		9601491F11C5653D98D1EB5DF2155DFE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */,
-				C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleMaps";
-			sourceTree = "<group>";
-		};
-		BA74A17C881C16C4181E4C7FC5FB4EF0 /* Pods-TestIntegrateAppium */ = {
-			isa = PBXGroup;
-			children = (
-				550351DDC446E7C998520E9F6940F144 /* Pods-TestIntegrateAppium.modulemap */,
-				DE7213DEB6A8935E272F1B61CBCF6465 /* Pods-TestIntegrateAppium-acknowledgements.markdown */,
-				7D83F758DCD9404F440EF50AC3A00728 /* Pods-TestIntegrateAppium-acknowledgements.plist */,
-				C4120E5C9000E52FF59714220A44FA1F /* Pods-TestIntegrateAppium-dummy.m */,
-				2C697BB86534424A8A4731445259732C /* Pods-TestIntegrateAppium-Info.plist */,
-				4E0D7A6128D0DAE28E46B6F3E83F8F94 /* Pods-TestIntegrateAppium-resources.sh */,
-				93396209D37D4CE170476BE24BB4B449 /* Pods-TestIntegrateAppium-umbrella.h */,
-				48179B0BF3035D9F626610F7BCEE3195 /* Pods-TestIntegrateAppium.debug.xcconfig */,
-				62ABF3193604120FF6421FC59738502D /* Pods-TestIntegrateAppium.release.xcconfig */,
-			);
-			name = "Pods-TestIntegrateAppium";
-			path = "Target Support Files/Pods-TestIntegrateAppium";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -143,9 +75,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
 				F3CAE197D64AC3DBF0A0D07D1533FD14 /* Products */,
-				FAF3E0D1A2E603E24A367E76CAB8DB00 /* Targets Support Files */,
+				A22A396C185F444746521C70BF18076F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,22 +88,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E48211C21EA696EBC32B31525F5FFA67 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		F3CAE197D64AC3DBF0A0D07D1533FD14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,31 +96,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */,
-				E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FAF3E0D1A2E603E24A367E76CAB8DB00 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA74A17C881C16C4181E4C7FC5FB4EF0 /* Pods-TestIntegrateAppium */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C3F5CEFA0E1A14AEB1ABEB406EBAD26 /* Headers */ = {
+		F6F93426555E167E81F3D2271F358696 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09EBDED8AEB33BC650B0B09378DB3ED /* Pods-TestIntegrateAppium-umbrella.h in Headers */,
+				A9C35755C5545838C54184C043DB47B4 /* Pods-TestIntegrateAppium-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,17 +112,16 @@
 /* Begin PBXNativeTarget section */
 		154B18E7C4BDCE8F98A07738EBFC28C8 /* Pods-TestIntegrateAppium */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFD8CC258630FDBE7053705FFE30FA24 /* Build configuration list for PBXNativeTarget "Pods-TestIntegrateAppium" */;
+			buildConfigurationList = 905BB79AA87A079EDE4EFB24A3829E19 /* Build configuration list for PBXNativeTarget "Pods-TestIntegrateAppium" */;
 			buildPhases = (
-				1C3F5CEFA0E1A14AEB1ABEB406EBAD26 /* Headers */,
-				4025A0C203EC3DD515DDC61B3390D10A /* Sources */,
-				08604031F0CBC08C812BB7748D12E32C /* Frameworks */,
-				2B40B83E2888F4687F5B170CF37FCE51 /* Resources */,
+				F6F93426555E167E81F3D2271F358696 /* Headers */,
+				C33262AE9E9C809D379C00BD70F0D27D /* Sources */,
+				D86EE1FEEBBBB30260E6E0EB43E2EFC8 /* Frameworks */,
+				E7BF06E650C104283646B62640F14612 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2340D3C33CA57B02B12E9B39176C9939 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestIntegrateAppium";
 			productName = Pods_TestIntegrateAppium;
@@ -253,14 +150,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
 				154B18E7C4BDCE8F98A07738EBFC28C8 /* Pods-TestIntegrateAppium */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B40B83E2888F4687F5B170CF37FCE51 /* Resources */ = {
+		E7BF06E650C104283646B62640F14612 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,101 +166,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4025A0C203EC3DD515DDC61B3390D10A /* Sources */ = {
+		C33262AE9E9C809D379C00BD70F0D27D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7B1AE2A3400D0A38BFB1D055F122A66 /* Pods-TestIntegrateAppium-dummy.m in Sources */,
+				4A7F7368B81D3FDDF2F516B7A00EDA21 /* Pods-TestIntegrateAppium-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2340D3C33CA57B02B12E9B39176C9939 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = CD71F9F83B87010A61B45E6E034E3630 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		195E00B478F5347719EC55F21AE036A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62ABF3193604120FF6421FC59738502D /* Pods-TestIntegrateAppium.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		252AB287D88D41C5F3A93F00055E69CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48179B0BF3035D9F626610F7BCEE3195 /* Pods-TestIntegrateAppium.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,38 +243,41 @@
 			};
 			name = Debug;
 		};
-		5834AEB702FC0743E58BBE60D611434A /* Debug */ = {
+		751CF507EE3F2F7CFED9D53206583421 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */;
+			baseConfigurationReference = 9C6842E11EE2BD61BA2C14B68F3350CE /* Pods-TestIntegrateAppium.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		67B107ED17C6C18DC4B8B4D3356E049A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -528,18 +343,46 @@
 			};
 			name = Release;
 		};
+		EAC59A5E42993359EC364B14EA070C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4716BAD334C5164344144BE9F5BDE987 /* Pods-TestIntegrateAppium.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestIntegrateAppium/Pods-TestIntegrateAppium.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5834AEB702FC0743E58BBE60D611434A /* Debug */,
-				67B107ED17C6C18DC4B8B4D3356E049A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -549,11 +392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFD8CC258630FDBE7053705FFE30FA24 /* Build configuration list for PBXNativeTarget "Pods-TestIntegrateAppium" */ = {
+		905BB79AA87A079EDE4EFB24A3829E19 /* Build configuration list for PBXNativeTarget "Pods-TestIntegrateAppium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				252AB287D88D41C5F3A93F00055E69CC /* Debug */,
-				195E00B478F5347719EC55F21AE036A3 /* Release */,
+				EAC59A5E42993359EC364B14EA070C27 /* Debug */,
+				751CF507EE3F2F7CFED9D53206583421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
